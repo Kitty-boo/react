@@ -1,13 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import itemListContainer from './components/ItemListContainer';
+import CartWidget from './components/CartWidget';
+import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
+      <NavBar escuela="NEFREDOS" curso="Ilustración" cursodos="Animación" cursotres="Ilustración"/>
       <header className="App-header">
-      <greeting saludo="Clase 2"/> 
-      <h2 className="titulo">Bienvenido a NFEFREDOS</h2>
+      <ItemListContainer greeting="Bienvenido a NEFREDOS"/>
+      <CartWidget />
       </header>
     </div>
   );
