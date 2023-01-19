@@ -1,0 +1,22 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-left: 50px;
+}
+
+.nombreLogo {
+    margin-right: 700px;
+    font-family: sans-serif;
+}

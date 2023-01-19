@@ -1,0 +1,13 @@
+.counting {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 160px;
+}
+
+.controles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
