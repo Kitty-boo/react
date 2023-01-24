@@ -1,11 +1,12 @@
 import "./Item.css"
 import { useState } from "react";
 
+
+const stock = 10;
+const limite = 0;
+
 const ItemCount = () => {
     const [contador, setContador] = useState(0);
-
-    const stock = 10;
-    const limite = 0;
 
 
     const sumar = () => {
