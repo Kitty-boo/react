@@ -6,7 +6,7 @@ const NavBar = ({escuela, todo, productouno, productodos, productotres}) => {
   return (
     <div className="navBar"> 
      <img alt="logotipo de nefredos" src="./images/logo.png" /><h2 className="nombreLogo">{escuela}</h2>
-    <ul>
+    <ul className="ulNav">
      <li className="lista">{todo}</li>
      <li className="lista">{productouno}</li>
      <li className="lista">{productodos}</li>

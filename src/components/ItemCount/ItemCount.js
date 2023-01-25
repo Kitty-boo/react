@@ -8,7 +8,6 @@ const limite = 0;
 const ItemCount = () => {
     const [contador, setContador] = useState(0);
 
-
     const sumar = () => {
         if (stock === contador) {
             return;

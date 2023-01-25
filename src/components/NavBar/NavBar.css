@@ -6,13 +6,13 @@
     background-color: antiquewhite;
 }
 
-ul {
+.ulNav {
     list-style: none;
     display: flex;
     flex-direction: row;
 }
 
-li {
+.lista {
     margin-left: 50px;
 }
 
